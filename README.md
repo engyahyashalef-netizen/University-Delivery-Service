@@ -34,4 +34,4 @@ To run this project locally, you will need a web server environment that support
 Eng. Yahya Shalf
 
 ## License
-[Specify your license here, e.g., MIT License]
+© 2026 Eng. Yahya Shalf. All Rights Reserved. No part of this project may be copied or reproduced without explicit permission.
