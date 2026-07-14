@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خدمة التوصيل داخل الجامعة</title>
+    <link rel="stylesheet" href="css/style.css" />
+ <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="top-menu">
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+<li><a href="view_requests.html">عرض الطلبات</a></li>
+
+      </ul>
+    </nav>
+    <h1>خدمة التوصيل داخل الجامعة</h1>
+    <p>نوصلكم لأي مكان داخل الحرم الجامعي بسهولة وسرعة!</p>
+  </header>
+
+  <main>
+    <form action="process.php" method="POST" novalidate>
+      <label for="fullname">الاسم الكامل:</label>
+      <input type="text" id="fullname" name="fullname" required />
+
+      <label for="phone">رقم الجوال:</label>
+      <input type="tel" id="phone" name="phone" pattern="05[0-9]{8}" required />
+
+      <label for="restaurant">المطعم:</label>
+      <select id="restaurant" name="restaurant" required>
+        <option value="">— اختر المطعم —</option>
+        <option>كرز البن</option>
+        <option>لاروكا</option>
+        <option>شباك جيم</option>
+        <option>ستاربكس</option>
+        <option>3dots</option>
+        <option>pulse</option>
+        <option>secondCance</option>
+        <option>Eat</option>
+      </select>
+
+      <label for="building">الوجهة (المبنى):</label>
+      <select id="building" name="building" required>
+        <option value="">— اختر المبنى —</option>
+        <option value="4">4</option>
+        <option value="7">7</option>
+        <option value="14">14</option>
+        <option value="16">16</option>
+        <option value="24">24</option>
+        <option value="27">27</option>
+      </select>
+
+      <label for="floor">الدور:</label>
+      <select id="floor" name="floor" required>
+        <option value="">— اختر الدور —</option>
+        <option value="1">الأول</option>
+        <option value="2">الثاني</option>
+      </select>
+
+      <label for="order">الرجاء إدخال الطلب:</label>
+      <textarea id="order" name="order" rows="4" required></textarea>
+
+      <label for="notes">ملاحظات إضافية:</label>
+      <textarea id="notes" name="notes" rows="3"></textarea>
+
+      <button type="submit">إرسال الطلب</button>
+    </form>
+  </main>
+
+  <footer>
+
+  <div class="social-icons">
+                <a href="#" title="Facebook"><img src="./img/Facebook.jpg" alt="Facebook"></a>
+                <a href="#" title="Instagram"><img src="./img/Instagram.jpg" alt="Instagram"></a>
+                <a href="#" title="X"><img src="./img/x.jpg" alt="X"></a>
+                <a href="#" title="YouTube"><img src="./img/Youtube.jpg" alt="YouTube"></a>
+                <a href="#" title="Snapchat"><img src="./img/Snapchat.jpg" alt="Snapchat"></a>
+                <a href="#" title="LinkedIn"><img src="./img/LinkedIn.jpg" alt="LinkedIn"></a>
+                <a href="#" title="WhatsApp"><img src="./img/whatsapp.jpg" alt="WhatsApp"></a>
+                <a href="#" title="TikTok"><img src="./img/tiktok.jpg" alt="TikTok"></a>
+            </div>
+  <p>&copy; 2025 خدمة التوصيل داخل الجامعة</p>
+  <p>للتواصل: <strong>0551234567</strong></p>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

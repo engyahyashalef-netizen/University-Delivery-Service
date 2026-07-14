@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>اتصل بنا — خدمة التوصيل داخل الجامعة</title>
+    <link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="top-menu">
+      <ul>
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html" class="active">اتصل بنا</a></li>
+<li><a href="view_requests.html">عرض الطلبات</a></li>
+
+      </ul>
+    </nav>
+    <h1>اتصل بنا</h1>
+    <p>نرحب باستفساراتكم واقتراحاتكم لتحسين الخدمة.</p>
+  </header>
+
+  <main>
+    <form action="contact_process.php" method="POST" novalidate>
+      <label for="name">الاسم الكامل:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">البريد الإلكتروني:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="subject">الموضوع:</label>
+      <input type="text" id="subject" name="subject" required />
+
+      <label for="message">الرسالة:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">إرسال</button>
+    </form>
+  </main>
+
+  <footer>
+
+  <div class="social-icons">
+                <a href="#" title="Facebook"><img src="./img/Facebook.jpg" alt="Facebook"></a>
+                <a href="#" title="Instagram"><img src="./img/Instagram.jpg" alt="Instagram"></a>
+                <a href="#" title="X"><img src="./img/x.jpg" alt="X"></a>
+                <a href="#" title="YouTube"><img src="./img/Youtube.jpg" alt="YouTube"></a>
+                <a href="#" title="Snapchat"><img src="./img/Snapchat.jpg" alt="Snapchat"></a>
+                <a href="#" title="LinkedIn"><img src="./img/LinkedIn.jpg" alt="LinkedIn"></a>
+                <a href="#" title="WhatsApp"><img src="./img/whatsapp.jpg" alt="WhatsApp"></a>
+                <a href="#" title="TikTok"><img src="./img/tiktok.jpg" alt="TikTok"></a>
+            </div>
+  <p>&copy; 2025 خدمة التوصيل داخل الجامعة</p>
+  <p>للتواصل: <strong>0551234567</strong></p>
+</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
